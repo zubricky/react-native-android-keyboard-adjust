@@ -8,7 +8,7 @@ If you are having issues with the default keyboard screen adjust modes and need 
 
 ### Install the package
 
-`npm install --save https://github.com/zubricky/react-native-android-keyboard-adjust`
+`npm install --save react-native-android-keyboard-adjust`
 
 ### Update android/app/build.gradle
 

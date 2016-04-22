@@ -52,10 +52,15 @@ protected List<ReactPackage> getPackages() {
 
 ## Example
 ```
-var AndroidKeyboardAdjust = require('NativeModules').AndroidKeyboardAdjust;
+import AndroidKeyboardAdjust from 'react-native-android-keyboard-adjust';
 
 AndroidKeyboardAdjust.setAdjustNothing();
 AndroidKeyboardAdjust.setAdjustPan();
 AndroidKeyboardAdjust.setAdjustResize();
 AndroidKeyboardAdjust.setAdjustUnspecified();
+AndroidKeyboardAdjust.setAlwaysVisible();
+AndroidKeyboardAdjust.setAlwaysHidden();
+AndroidKeyboardAdjust.setVisible();
+AndroidKeyboardAdjust.setHidden();
+AndroidKeyboardAdjust.setUnchanged();
 ```

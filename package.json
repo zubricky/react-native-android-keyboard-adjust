@@ -1,6 +1,6 @@
 {
   "name": "react-native-android-keyboard-adjust",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Change the input mode for the Android keyboard in a React Native app.",
   "main": "index.js",
   "author": "Marc Zubricky <marc.zubricky@gmail.com>",

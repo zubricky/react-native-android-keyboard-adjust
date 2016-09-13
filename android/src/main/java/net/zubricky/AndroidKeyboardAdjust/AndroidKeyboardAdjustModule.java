@@ -14,9 +14,9 @@ public class AndroidKeyboardAdjustModule extends ReactContextBaseJavaModule {
 
     private Activity activity;
 
-    public AndroidKeyboardAdjustModule(ReactApplicationContext reactApplicationContext, Activity activity) {
+    public AndroidKeyboardAdjustModule(ReactApplicationContext reactApplicationContext) {
         super(reactApplicationContext);
-        this.activity = activity;
+        this.activity = getCurrentActivity();
     }
 
     @Override

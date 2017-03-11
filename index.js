@@ -1,2 +1,3 @@
-var AndroidKeyboardAdjust = require('NativeModules').AndroidKeyboardAdjust;
+import { NativeModules } from 'react-native';
+var AndroidKeyboardAdjust = NativeModules.AndroidKeyboardAdjust;
 module.exports = AndroidKeyboardAdjust;

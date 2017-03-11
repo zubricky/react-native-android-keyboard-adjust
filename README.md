@@ -53,7 +53,7 @@ Add the package to the `getPackages` method
 protected List<ReactPackage> getPackages() {
     return Arrays.<ReactPackage>asList(
         ...
-        new AndroidKeyboardAdjustPackage(this)
+        new AndroidKeyboardAdjustPackage()
     );
 }
 ```

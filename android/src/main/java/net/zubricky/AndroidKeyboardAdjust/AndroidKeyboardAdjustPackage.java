@@ -14,15 +14,13 @@ import java.util.List;
 
 public class AndroidKeyboardAdjustPackage implements ReactPackage {
 
-    private Activity mActivity = null;
-
-    public AndroidKeyboardAdjustPackage(Activity activity) {
-        mActivity = activity;
+    public AndroidKeyboardAdjustPackage() {
+        
     }
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactApplicationContext) {
-        return Collections.<NativeModule>singletonList(new AndroidKeyboardAdjustModule(reactApplicationContext, mActivity));
+        return Collections.<NativeModule>singletonList(new AndroidKeyboardAdjustModule(reactApplicationContext));
     }
 
     @Override

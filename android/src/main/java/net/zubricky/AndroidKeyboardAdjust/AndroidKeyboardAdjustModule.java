@@ -22,7 +22,7 @@ public class AndroidKeyboardAdjustModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void setAdjustNothing() {
+    public void setStateUnspecified() {
 
         final Activity activity = getCurrentActivity();
 

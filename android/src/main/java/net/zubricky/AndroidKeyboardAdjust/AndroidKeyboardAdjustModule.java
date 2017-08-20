@@ -22,6 +22,23 @@ public class AndroidKeyboardAdjustModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
+    public void setStateUnspecified() {
+
+        final Activity activity = getCurrentActivity();
+
+        if (activity == null) {
+            return;
+        }
+        
+        activity.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                activity.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_UNSPECIFIED);
+            }
+        });
+    }
+
+    @ReactMethod
     public void setAdjustNothing() {
 
         final Activity activity = getCurrentActivity();

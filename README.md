@@ -38,7 +38,7 @@ project(':react-native-android-keyboard-adjust').projectDir = new File(settingsD
 ...
 ```
 
-### Update MainActivity.java in your project
+### Update MainApplication.java in your project
 
 Import the package
 

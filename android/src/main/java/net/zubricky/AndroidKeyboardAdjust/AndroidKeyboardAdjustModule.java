@@ -3,6 +3,8 @@ package net.zubricky.AndroidKeyboardAdjust;
 import android.app.Activity;
 import android.view.WindowManager;
 
+import androidx.annotation.NonNull;
+
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
@@ -15,6 +17,7 @@ public class AndroidKeyboardAdjustModule extends ReactContextBaseJavaModule {
     public AndroidKeyboardAdjustModule(ReactApplicationContext reactApplicationContext) {
         super(reactApplicationContext);
     }
+
 
     @Override
     public String getName() {
@@ -29,7 +32,7 @@ public class AndroidKeyboardAdjustModule extends ReactContextBaseJavaModule {
         if (activity == null) {
             return;
         }
-        
+
         activity.runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -46,7 +49,7 @@ public class AndroidKeyboardAdjustModule extends ReactContextBaseJavaModule {
         if (activity == null) {
             return;
         }
-        
+
         activity.runOnUiThread(new Runnable() {
             @Override
             public void run() {

@@ -2,11 +2,12 @@
   "name": "react-native-android-keyboard-adjust",
   "version": "1.2.0",
   "description": "Change the input mode for the Android keyboard in a React Native app.",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "Marc Zubricky <marc.zubricky@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "react-native": "^0.29.0"
+    "react-native": "^0.63.3",
+    "typescript": "^4.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/zubricky/react-native-android-keyboard-adjust/issues"
   },
-  "homepage": "https://github.com/zubricky/react-native-android-keyboard-adjust#readme"
+  "homepage": "https://github.com/zubricky/react-native-android-keyboard-adjust#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
 }
